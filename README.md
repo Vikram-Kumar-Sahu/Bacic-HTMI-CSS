@@ -59,4 +59,4 @@ _(more coming soon as I continue learning and building!)_
 You can simply download the repository or clone it:
 
 ```bash
-git clone https://github.com/your-Vikram-Kumar-Sahu/your-Basic-HTML_CSS.git
+git clone https://github.com/Vikram-Kumar-Sahu/Bacic-HTML_CSS.git
