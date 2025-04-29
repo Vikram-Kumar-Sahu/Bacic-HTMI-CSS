@@ -1,0 +1,258 @@
+nav{
+    
+    background: #270082;
+    height: 6vh;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 3vh;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 2vh;
+    margin-right: 5vw;
+}
+.none{
+    display: none;
+}
+.music{
+    margin-left: 6vw;
+}
+@media(max-width:600px){
+    .show{
+        display: none;
+    }
+.none{
+    display: block;
+}
+}
+.purple{
+    height: 120vw;
+    background: #281154;
+width: 100%;
+}
+.first{
+    background-image: url(hero_image.png);
+    height: 68.8vw;
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+   border-bottom: 3px solid #281154;
+   width: 100%;
+    color: white;
+    flex-wrap: wrap;
+}
+.text1{
+padding-top: 28%;
+display: flex;
+justify-content: center;
+font-size: 6.5vw;
+margin-right: 6vw;
+font-weight: bold;
+}
+.text2{
+    
+    display: flex;
+justify-content: center;
+font-size: 3.2vw;
+margin-top: 3vh;
+}
+.text3{
+    
+    margin-top: 3vh;
+    font-size: 2vw;
+    display: flex;
+ justify-content: center;
+ text-align: center;
+ margin-bottom: 33vh;
+}
+.second{
+  color: white;
+
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+h3{
+    display: flex;
+    justify-content: center;
+}
+
+.text4{
+    margin-top: 2.5vw;
+   font-size: 1.5vw;
+   text-align: center;
+   margin-right: 10vw;
+   margin-left: 10vw;
+   line-height: 1.9vw;
+}
+.contain{
+    margin-top: 2vw;
+    display: flex;
+    justify-content: center;
+}
+.one{
+    background: #DC0000;
+    color: white;
+    font-size: 1.2vw;
+    padding: 1vw;
+    border: none;
+}
+.orange{
+    text-align: center;
+    font-size: 1vw;
+    font-weight: 100;
+    margin-top: 2vw;
+}
+.contain2{
+    margin-top: 3vw;
+    display: flex;
+    justify-content: center;
+    height: 40vw;
+    
+}
+.img2{
+    background-image: url(ipad-iphone.png);
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 60vw;
+    
+}
+.text5{
+   
+    text-align: center;
+    color: black;
+    font-weight: 700;
+    margin-top: 4vw;
+    font-size: 2vw;
+}
+.text6{
+    text-align: center;
+    color: black;
+    font-weight: 100;
+    padding-left:15vw ;
+    padding-right: 15vw;
+    margin-top: 3vw;
+    font-size: 1.25vw;
+    line-height: 2vw;
+}
+.two{
+    background: #37008E;
+    height: 3vw;
+    color: white;
+    font-size: 1.2vw;
+    padding: 1vw;
+    border: none;
+   font-weight: 100;
+   margin-top: 1vw;
+}
+.mac{
+    background-image: url(mac.png);
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 45vw;
+    width: 75%;
+}
+.contain3{
+    
+        margin-top: 3vw;
+        display: flex;
+        justify-content: center;
+        height: 45vw;
+}
+.video{
+    background-image: url(video.png);
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 55vw;
+    width: 100%;
+}
+.text7{
+    padding-top: 17vw;
+    font-size: 2vw;
+    text-align: center;
+    font-weight: 600;
+}
+.text8{
+    width: 70%;
+    font-size: 1vw;
+    text-align: center;
+    font-weight: 500;
+}
+.white{
+    display: flex;
+    margin-bottom: 8vw;
+    margin-left: 8vw;
+    height: 20vw;
+    margin-right: 4vw;
+}
+.logo{
+    background-image: url(gift_card.png);
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    
+   
+    width: 80%;
+}
+.text9{
+    color: black;
+    margin-left:2vw ;
+}
+.b7{
+    font-size: 2.5vw;
+    font-weight: 700;
+    
+}
+
+.b5{
+    font-size: 1.25vw;
+    font-weight: 100;
+}
+.b6{
+    font-size: 1.25vw;
+    font-weight: 300;
+}
+.three{
+    background: #37008E;
+    background: #37008E;
+    height: 3vw;
+    color: white;
+    font-size: 1.2vw;
+    padding: 1vw;
+    border: none;
+   font-weight: 100;
+   margin-top: 1vw;
+}
+.foot1{
+    background: #1B0058;
+    height: 18vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 4vw;
+}
+h4{
+    font-size: 1.5vw;
+    line-height: 2.5vw;
+    margin-bottom: -1vw;
+}
+p{
+    font-size: 1vw;
+}
+.foot2{
+    background: #270082;
+    height: 3vw;
+    text-align: center;
+    font-size: 1.5vw;
+    padding-top: 1.5vw;
+}

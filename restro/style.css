@@ -1,0 +1,304 @@
+*{
+    
+}
+header{
+    height: 55px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.logo{
+    background-image: url(logo.png);
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin-left: 70px;
+}
+.menu{
+    margin-top: 27px;
+    margin-left: 500px;
+}
+.first{
+    margin-top: 20px;
+    height: 24rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.img1{
+    background-image: url(img2.jpg);
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin-left: 70px;
+    border-radius: 50%;
+    
+}
+.text1{
+    margin-top: 35px;
+    margin-left: 10px;
+}
+.one{
+    font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+line-height: 16.41px;
+text-align: left;
+background-color: green;
+color: white;
+padding: 11px ;
+margin-bottom: -5px;
+}
+.two{
+    font-family: Roboto;
+font-size: 50px;
+font-weight: 500;
+line-height: 63.38px;
+text-align: left;
+margin-top: 42px;
+}
+.three{
+    font-family: Roboto;
+font-size: 11px;
+font-weight: 500;
+line-height: 19px;
+text-align: left;
+margin-top: -50px;
+}
+.four{font-family: Roboto;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: left;
+    margin-top: -12px;
+
+}
+.five{
+    font-family: Roboto;
+font-size: 24px;
+font-weight: 500;
+line-height: 19px;
+text-align: left;
+color: white;
+background-color: #FFC066;
+text-align: center;
+width: 171px;
+height: 54px;
+top: 521px;
+left: 739px;
+gap: 0px;
+opacity: 0px;
+border: none;
+
+}
+.second{
+    display: flex;
+    justify-content: center;
+    width: 62.5%;
+    align-content: center;
+    margin-top: 73px;
+    margin-left: 160px;
+}
+.discount{
+    height: 60px;
+    width: 80px;
+    
+    width: 33.3%;
+    display: flex;
+    margin-left: 15px;
+}
+.fresh{
+    height: 60px;
+    width: 80px;
+    
+    width: 33.3%;
+    display: flex;
+    margin-left: 15px;
+}
+.home{
+    height: 60px;
+    width: 80px;
+    
+    width: 33.3%;
+    display: flex;
+    margin-left: 15px;
+}
+.img3{
+    background-image: url(img3.png);
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 30%;
+}
+.img4
+{
+    padding-left: 10px;
+    background-image: url(img4.png);
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 30%;
+}
+.img5{
+    margin-left: 10px;
+    background-image: url(img5.png);
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 30%;
+}
+.bada{
+    font-size: 14px;
+    font-family: Roboto;
+    margin-top: 2px;
+    font-weight: 600;
+}
+.chota{
+    font-size: 9px;
+    font-family: Roboto;
+    margin-top: -12px;
+}
+.text2{
+    margin-left: 4px;
+}
+.third{
+    margin-top: 3rem;
+}
+.ou{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.our{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: left;
+    background-color: green;
+    color: white;
+    padding: 9px ;
+    margin-bottom: -5px;
+}
+.ex{
+    margin-top: 20px;
+}
+.grid{
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    height: 30rem;
+    width: 90%;
+   margin-left: 5%;
+    background-color: aqua;
+    display: grid;
+    grid-template-areas: "f1 f1 f2 f3"
+                        "f1 f1 f2 f7"
+                         "f4 f5 f6 f7";
+}
+.img6{
+    background-image: url(img6.jpeg);
+    grid-area: f1;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img7{
+    background-image: url(img7.jpeg);
+    grid-area: f2;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img8{
+    background-image: url(img8.jpeg);
+    grid-area: f3;
+    
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img9{
+    align-content: center;
+    background-image: url(img9.jpeg);
+    grid-area:f4;
+    
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img10{
+    background-image: url(img10.jpeg);
+    grid-area:f5;
+   
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img11{
+    background-image: url(img11.jpeg);
+    grid-area:f6;
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img12{
+    background-image: url(img12.jpeg);
+    grid-area:f7;
+    height: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer{
+    height: 12rem;
+    background: #FFF0DB;
+    display: flex;
+    justify-content: center;
+    margin-top: 0rem;
+
+}
+
+.logo1{
+    background-image: url(logo.png);
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30%;
+    width: 25%;
+    margin-left: 70px;
+    margin-top: 2rem;
+}
+.text3{
+    width: 25%;
+    height: 45%;
+    line-height: 9px;
+    margin-top: 2rem;
+}
+.text4{
+    width: 25%;
+    height: 45%;
+    line-height: 9px;
+    margin-top: 2rem;
+}
+.text5{
+    width: 25%;
+    height: 45%;
+    line-height: 9px;
+    margin-top: 2rem;
+}
+.body{
+    font-size: 10px;
+    font-weight: 400;
+}
+.head{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}

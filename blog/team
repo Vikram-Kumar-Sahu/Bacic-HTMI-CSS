@@ -1,0 +1,4 @@
+<script>start("c:\\web2\\CyberVault-Frontend\\src\\pages\\team\\");</script>
+<script>onHasParentDirectory();</script>
+<script>addRow("Team.jsx","Team.jsx",0,2724,"2.7 kB",1742413509,"3/20/25, 1:15:09 AM");</script>
+<script>addRow("Team.module.scss","Team.module.scss",0,4180,"4.1 kB",1742413509,"3/20/25, 1:15:09 AM");</script>

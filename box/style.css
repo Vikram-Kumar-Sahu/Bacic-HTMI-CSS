@@ -1,0 +1,28 @@
+.dim{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+}
+.nav{
+    padding: 0;
+    margin: 0;
+    background-color: #0f1111;
+    height: 60px;
+    color: white;
+}
+#logo{
+    color:#f08804;
+}
+button{
+    background-color: #f08804;
+    
+}
+a{
+    
+    margin-right:197px;
+    text-decoration: none;
+    color:white;
+    border: 10px;
+    padding: 10% 0% 0% 0%;
+}

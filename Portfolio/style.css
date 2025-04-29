@@ -1,0 +1,227 @@
+header{
+    display: flex;
+    align-items: center;
+    background-color: #0089B7;
+    color: white;
+    height: 3vw;
+}
+nav{
+    display: flex;
+    width:50%;
+    height: 19px;
+    margin-left: 20vw;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 1vw;
+}
+.show:hover{
+    border-bottom: 0.1rem yellow solid;
+    transition: 0.3s ease-in-out;
+}
+.menu{
+    display: none;
+    height: 10px;
+}
+.Great{
+    align-items: center;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-left: 1vw;
+}
+.contain-y{
+    display: flex;
+    font-size: 24px;
+   align-items: center;
+   width: 50%;
+   margin-left: 5vw;
+}
+.show{
+    height: 19px;
+    width: 34px;
+    border-bottom: 0.4rem transparent solid;
+    transition: 0.3s ease-in-out;
+}
+@media(max-width:600px){
+.show{
+        display: none;
+        
+    }
+.menu{
+    display: block;
+    margin-left: 10vw;
+}
+}
+main{
+    height: 50vw;
+    background-color: #003D62;
+    width: 100%;
+    display: flex;
+    border-bottom:4px solid #0089B7 ;
+}
+.img1{
+    background-image: url(img1.jpeg);
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:40vw;
+    width: 27vw;
+    border-radius: 45%;
+}
+.center-y{
+    align-content: center;
+}
+.center-x{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.text1{
+    color: white;
+    font-weight: bold;
+}
+.l1{
+font-size: 4vw;
+}
+.l4{
+    font-size: 4vw;
+    color: #f5f79a;
+}
+.l2{
+    /* margin-top: 20vw; */
+    text-align: center;
+    font-size: 3vw;
+    line-height: 3vw;
+    width: 35vw;
+    margin-top: -15px;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }  
+.l3{
+    margin-top: 19vw;
+    width: 35vw;
+    font-size: large;
+    text-align: center;
+}
+.hero{
+    border-bottom: 4px solid #0089B7;
+}
+.main2{
+    background-color: #003251;
+}
+.project{
+    background-color: #003251;
+    color: white;
+    text-align: center;
+    border-bottom: 4px solid #0089B7;
+}
+.project h2{
+    font-size:8vw;
+    text-align: center;
+    margin: 2rem 0rem;
+    color: white;
+    padding: 2rem 0rem;
+}
+.grid_item {
+    display: grid;
+    place-items: center;
+  }
+.card{
+     display: flex; 
+    flex-direction: column; 
+   
+    overflow: hidden;
+    width: 320px;
+    transition: 0.2s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.05);
+    transition: 1s ease-in-out;
+}
+.card:hover img{
+    transition: 0.3s ease-in-out;
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+.class_content{
+    padding:2rem;
+    position: relative;
+    top: -6.5rem;
+    margin-bottom: -6.5rem;
+    transition: 0.5s ease-in-out;
+    transform: translateY(100px);
+    display: flex;
+    justify-content: center;
+    margin-left: 4.75rem;
+    width: 6.5rem;
+}
+.card:hover .class_content {
+    background: white;
+    color: #003251;
+    transform: translateY(0px);
+    width: 6.5rem;
+  }
+  .card_content h3 {
+    text-align: center;
+  }
+img{
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 14rem;
+    width: 10rem;
+    margin-left: 5rem;
+}
+.project_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 2rem;
+}
+.h1{
+    margin-top: 0vw;
+    padding-top: 9vw;
+    text-align: center;
+    color: white;
+    font-size: 4vw;
+}
+/*contactt*/
+#contact{
+    background: #003D62;
+    height: 40vw;
+    }
+   .top_contact{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+   }
+   .contact_way{
+    display: flex;
+    align-items: center;
+    gap:1vw;
+   }
+   .bottom_contact{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+   }
+.k1{
+    text-align: center;
+    padding-top: 1vw;
+    color: white;
+}
+footer{
+    height: 4vw;
+}
